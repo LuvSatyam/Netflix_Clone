@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+
+.main{
+    background-image: url(Assets/images/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 100vh;
+    position: relative;
+}
+
+.main .box{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.60;
+    top: 0;
+    position: absolute;
+   
+}
+
+nav{    
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+}
+
+nav img{
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+nav div{
+    position: relative;
+    z-index: 10;
+    padding: 2px;
+}
+
+.hero{
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+     position: relative;
+     font-family: "Martel Sans", sans-serif;
+     padding: 0 30px;
+     margin: 42px 10px;
+     gap: 23px;
+     
+
+}
+
+.hero > :nth-child(1){
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+
+.hero >:nth-child(2){
+
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3){
+    
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero .hero-btns{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+
+}
+
+.hero div .btn-red{
+
+    padding: 13px 24px;
+    font-size: 26px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    
+}
+
+.main .btn-red:hover{
+
+    cursor: pointer;
+    
+    background-color: rgb(227, 28, 28);
+    
+    
+}
+
+
+.hero div .btn-search{
+    height: 52px;
+    width: 380px;
+    border: 1px solid rgba(103, 100, 100, 0.749);
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(22, 21, 21, 0.806);
+    padding: 3px 1px 0px 21px;
+    font-weight: 900;
+    
+} 
+
+.main .btn{
+    padding: 7px 35px;
+    background-color: rgba(22, 21, 21, 0.806);
+}
+.separation {
+        height: 7px;
+        background-color: rgb(46, 44, 44);
+        position: relative;
+        z-index: 20;
+}
+
+
+.main nav div button{
+    padding: 5px 16px;
+    margin-left: 18px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.main nav div button.btn-red{
+    padding: 5px 16px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.main nav div .btn{
+    border: 1px solid gray;
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    top: 79px;
+    right: 61px;
+    width: 420px;
+}
+
+
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+
+.container{
+    height: 50px;
+    max-width: 100%;
+    padding: 10px 20px;
+    margin: 8px 207px;
+    background-color: rgba(48, 46, 46, 0.906);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.container:hover{
+    cursor: pointer;
+    background-color: rgb(61, 59, 59);
+}
+
+.hero #line{
+    
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.last:first-child{
+    color: white;
+}
+
+
+.last h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 47px;
+    margin: 47px 37px;
+
+}
+
+
+
+ .footer-container{
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.731);
+    margin: 5px 6px;
+    padding: 1px 2px;
+
+}
+
+.box-list{
+    margin-left: 144px;
+    padding: 10px 10px;
+}
+
+.box-list ul li{
+    list-style: none;
+    text-decoration: underline;
+    line-height: 32px;
+}
+
+.box-list ul li:hover{
+    cursor: pointer;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 10px;
+    color: rgba(255, 255, 255, 0.731);
+}
+
+.flex-container-item{
+    margin-left: 156px;
+}
+
+footer .flex-container div .btn {
+    padding: 7px 26px;
+    margin: 3px 1px;
+    border: 1px solid rgba(199, 195, 195, 0.721);
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#last-item{
+    list-style: none;
+}
+
+
+.secImg-third {
+    position: relative;
+}
+
+.secImg-third img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg-third video {
+    position: absolute;
+    top: 79px;
+    right: 111px;
+    width: 340px;
+}
+
+@media screen and ( max-width: 1300px) {
+    .first{
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+.secImgAnimation{
+    border: 2px solid rgba(199, 195, 195, 0.721);
+    height: 59px;
+    width: 294px;
+    display: flex;
+    flex-direction: row;
+   
+    margin: 19px 10px;
+    padding: 10px 10px;
+    border-radius: 14px;
+   
+}
+
+.hero div .btn-red:hover{
+    cursor: pointer;
+    
+    background-color: rgb(227, 28, 28);
+
+}
+
+/* 
+.secAnimationContent{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px 10px;
+    position: absolute;
+    
+}
+#firstSpan{
+    font-weight: bold;
+    
+}
+#secSpan{
+    color: rgb(85, 85, 243);
+    
+}
+#animationImg{
+    padding-left: 68px;
+    margin-top: 10px;
+} */
