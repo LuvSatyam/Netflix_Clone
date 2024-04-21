@@ -98,11 +98,12 @@ nav div{
 
 .hero div .btn-red{
 
-    padding: 13px 24px;
+    padding: 11px 24px;
     font-size: 26px;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: red;
     color: white;
+    border: none;
     
 }
 
@@ -117,10 +118,10 @@ nav div{
 
 
 .hero div .btn-search{
-    height: 52px;
-    width: 380px;
+    height: 48px;
+    width: 345px;
     border: 1px solid rgba(103, 100, 100, 0.749);
-    border-radius: 6px;
+    border-radius: 4px;
     color: white;
     background-color: rgba(22, 21, 21, 0.806);
     padding: 3px 1px 0px 21px;
@@ -150,9 +151,10 @@ nav div{
     font-weight: bold;
 }
 .main nav div button.btn-red{
-    padding: 5px 16px;
+    padding: 8px 16px;
     border-radius: 5px;
     background-color: red;
+    border: none;
 }
 
 .main nav div .btn{
@@ -369,3 +371,20 @@ footer .flex-container div .btn {
     padding-left: 68px;
     margin-top: 10px;
 } */
+
+.hidden-content{
+    color: white;
+    background-color: rgba(48, 46, 46, 0.906);
+    margin: 0px 207px;
+    padding: 23px 18px;
+    font-size: 23px;
+    font-family: "Martel Sans", sans-serif;
+    margin-top: -7px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px; 
+    display:none; 
+    
+}
+
